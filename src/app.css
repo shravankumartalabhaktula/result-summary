@@ -1,0 +1,19 @@
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+}
+
+.main {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+.result {
+  background-color: hsl(252, 100%, 67%);
+}

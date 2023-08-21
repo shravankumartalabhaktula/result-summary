@@ -1,8 +1,23 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+html {
+  height: 100%;
+  background-color: hsl(221, 100%, 96%);
+}
+
+body {
+  height: 100%;
   font-family: 'Hanken Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
+  margin: auto;
+  /* border: 1px solid black; */
 }
 
 code {
